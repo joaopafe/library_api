@@ -1,17 +1,11 @@
-import "dotenv/config";
 import express from "express";
-import { openDb } from "../connectDB.js";
+import BookRepository from "./repositories/bookRepository.js";
 
 const port = process.env.PORT || 3000;
+const bookRepository = new BookRepository();
 
-function createTable() {
-  openDb().then((db) => {
-    db.exec(`CREATE TABLE IF NOT EXISTS Book (id INTEGER)`);
-  });
-}
-
-createTable();
+bookRepository.createTable();
 
 const app = express();
 
-app.listen(port, console.log("Servidor na porta " + port));
+app.listen(port, console.log(`Server listening in the port ${port}`));
