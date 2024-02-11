@@ -1,0 +1,17 @@
+{
+  "name": "library_api",
+  "version": "1.0.0",
+  "description": "API for a library",
+  "main": "server.ts",
+  "repository": "https://github.com/joaopafe/library_api.git",
+  "scripts": {
+    "dev": ""
+  },
+  "keywords": [],
+  "author": "João Paulo <joao.ea2020@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
