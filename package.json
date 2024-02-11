@@ -11,6 +11,7 @@
   "author": "João Paulo <joao.ea2020@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.2",
     "express": "^4.18.2",
     "nodemon": "^3.0.3"
   }
