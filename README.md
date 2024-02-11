@@ -9,8 +9,7 @@ Este API foi desenvolvida utilizando as seguintes tecnologias:
 
 Além de contar com a seguinte biblioteca auxiliar neste momento:
 
-- `Nodemon`;
-- `Typescript`.
+- `Nodemon`.
 
 ## Enpoints
 
