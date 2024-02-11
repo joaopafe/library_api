@@ -1,3 +1,1 @@
-const env = require("dotenv").config();
-
-module.exports = env;
+require("dotenv").config();
