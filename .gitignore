@@ -3,3 +3,6 @@ node_modules
 
 # Ignore the .env
 .env
+
+# Ignore the .db
+library_database.db
